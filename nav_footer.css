@@ -1,0 +1,56 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center; /* Center the list items horizontally */
+  }
+
+  /* Styling for the navigation links */
+  nav ul li {
+    display: inline;
+    margin-right: 20px; /* Adjust spacing between links */
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+
+  nav ul li a:hover {
+    color: #147ab4; /* Change color on hover */
+  }
+
+
+.kendrick{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+footer {
+    background-color: #06476d; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    text-align: center; /* Center-align text within the footer */
+    padding: 20px; /* Add some padding for better spacing */
+    position: fixed; /* Fixed position at the bottom of the viewport */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+  }
+
+
+ 
+
+ 
+

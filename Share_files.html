@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="nav_footer.css">
+  <link rel="stylesheet" href="share_resources.css">
+  <title>Share Resources</title>
+  <style>
+   
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Discussions.html">Discussions</a></li>
+        <li><a href="Share_files.html">Resources</a></li>
+    </ul>
+</nav>
+
+<h1>Share Resources Page</h1>
+<br>
+
+
+  <div id="container">
+    <input type="file" id="fileInput">
+    <button onclick="uploadFile()">Upload</button>
+    <br><br><br>
+    <input type="text" id="searchInput" placeholder="Search by name"><br><br>
+    <button onclick="searchFiles()">Search</button>
+    <br><br>
+
+    <table id="fileTable">
+      <thead>
+        <tr>
+          <th>Reource Name</th>
+          <th>Download</th>
+        </tr>
+      </thead>
+      <tbody id="fileList"></tbody>
+    </table>
+  </div>
+
+  <script src="Share_resources.js"></script>
+
+  <footer>
+    <p >&copy; Dummy website</p>
+    <p>Add links here for easier navigation</p>
+</footer>
+
+</body>
+</html>
